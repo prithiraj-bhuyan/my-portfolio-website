@@ -35,12 +35,12 @@ const Hero = () => {
             Welcome to my  Digital Memoir
           </p>
           <TextGenerateEffect
-            words="A Trailblazing Journey of Innovation & Exploration"
+            words="Hi! My name is Prithiraj Bhuyan"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Prithiraj, a Web Developer based in India.
+            I&apos;m a Full-stack Developer based in India.
           </p>
 
           <a href="#about">
