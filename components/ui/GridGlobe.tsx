@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import { TextGenerateEffect } from "./text-generate-effect";
 
 const World = dynamic(() => import("../ui/Globe").then((m) => m.World), {
   ssr: false,
@@ -395,9 +396,16 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex items-center justify-center absolute -left-5 top-36 md:top-40 w-full h-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden px-4 h-96">
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
+    <div className="flex items-center justify-center relative w-full h-full">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden px-4 py-5 h-full rounded-3xl bg-[#04071d]">
+      <div className=" absolute flex flex-col font-sans font-bold text-xl lg:text-4xl max-w-96 z-10">
+        <div className="pb-10 font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
+            <p>Discover the world through my eyes as I showcase the places I've explored, each destination leaving its unique mark on my journey.</p>
+        </div>
+        <p>Tracing My Travels</p>
+
+      </div>
+        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40"  />
         <div className="absolute w-full h-72 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
