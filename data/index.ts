@@ -9,7 +9,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -50,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building an AI Chatbot",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,93 +73,98 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Fitsera",
+      des: "An AI assisted home workout model based on Tensorflow and dynamic time warping",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Face-Crypt Messenger",
+      des: "A secure messaging tool that requires facial authentication for sensitive messages.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Care-Link",
+      des: "A Flutter based mobile app to assist and tract activities of Dementia Patients.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "PB-Portfolio",
+      des: "Created a portfolio website from scratch based on NextJS.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Prithiraj was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Prithiraj's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Prithiraj is the ideal partner.",
+      name: "Debo Borkotoky",
+      profile: "profile1.svg",
+      title: "CEO at N.K. Productions",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Prithiraj has been an absolute privilege. His ability to lead teams effectively, especially during high-pressure projects, is remarkable. I witnessed his leadership firsthand when he spearheaded the migration of a critical business application to Google Cloud. Not only did he ensure seamless execution, but he also inspired the team with his innovative solutions and strategic foresight. Prithiraj is a natural leader who elevates everyone around him.",
+      name: "Naman Kapoor",
+      profile: "profile2.svg",
+      title: "Software Deeloper at Societe Generale",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Prithiraj's technical expertise is second to none. During our time together, he consistently demonstrated a deep understanding of cloud engineering, particularly with Terraform, Docker, and Kubernetes. His ability to troubleshoot complex issues and implement efficient solutions has been a game-changer for our projects. Prithiraj is not just a tech expert but a problem-solver who thrives on challenges.",
+      name: "Niket Jain",
+      profile: "profile3.svg",
+      title: "SDE at UBS",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Prithiraj has an exceptional ability to bring people together and foster collaboration across teams. His approachable demeanor and clear communication skills make him a joy to work with. I remember when we worked on an innovation challenge; Prithiraj's ability to align our diverse ideas into a cohesive strategy helped us become finalists. His collaborative spirit ensures that every team member feels valued and heard.",
+      name: "Ojas Naik",
+      profile: "profile4.svg",
+      title: "SDE-2 at Verizon",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Prithiraj is a visionary who combines his technical acumen with a genuine commitment to achieving excellence. I’ve seen him turn ambitious ideas into actionable plans, whether it was creating a chatbot with LLMs or integrating Gen AI tools into workflows. His ability to think big while paying attention to detail sets him apart. Prithiraj’s passion for his work is contagious and drives the entire team forward.",
+      name: "Deepanshu Dhingra",
+      profile: "profile5.svg",
+      title: "SDE-3 at J.P. Morgan Chase and Co.",
     },
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
+      name: "google cloud",
       img: "/cloud.svg",
       nameImg: "/cloudName.svg",
     },
     {
       id: 2,
-      name: "appwrite",
+      name: "nextJS",
       img: "/app.svg",
       nameImg: "/appName.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
+      name: "terraform",
       img: "/host.svg",
       nameImg: "/hostName.svg",
     },
     {
       id: 4,
-      name: "stream",
+      name: "kubernetes",
       img: "/s.svg",
       nameImg: "/streamName.svg",
     },
@@ -174,31 +179,31 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Cloud Engineer - Deutsche Bank",
+      desc: "Lead the development of an internal tool serving over 60,000 users. Also developed a dashboard for monitoring SLAs and integrated an AI chatbot.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Web Development Intern - ABST Global",
+      desc: "Designed and developed a plug and play solution for restraunts to ensure smooth booking and billing.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "App Development - N.K. Productions",
+      desc: "Lead the development and launch their first OTT app NK Big Star serving over 10 million users.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/exp4.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Core Committee Member - Helphen India (NGO)",
+      desc: "Served in the events division of Helphen India for 2 years organizing various charity events.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/exp3.svg",
     },
   ];
   

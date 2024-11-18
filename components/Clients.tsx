@@ -6,8 +6,8 @@ const Clients = () => {
   return (
     <div className='py-20' id="testimonials">
        <h1 className='heading'>
-        Kind words from {' '}
-        <span className='text-purple'> satisfied clients</span>
+        Kind words from my {' '}
+        <span className='text-purple'>Colleagues & Clients</span>
        </h1>
        <div className='flex flex-col items-center max-lg:mt-10'>
                 <InfiniteMovingCards 
@@ -24,11 +24,11 @@ const Clients = () => {
                             alt={name}
                             className='md:w-10 w-5'
                         />
-                        <img 
+                        {/* <img 
                             src={nameImg}
                             alt={name}
                             className='md:w-24 w-20'
-                        />
+                        /> */}
 
                     </div>
                 ))}
