@@ -3,12 +3,12 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { Globe } from "./Globe";
-import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from '@/data/confetti.json'
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import GridGlobe from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -103,7 +103,7 @@ export const BentoGridItem = ({
                 <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
                     {title}
                 </div>
-            {id===2 && <BackgroundGradientAnimation />} 
+            {id === 2 && <GridGlobe />}
             {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
