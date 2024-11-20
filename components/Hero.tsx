@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
-            <div>
+      <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
@@ -16,8 +16,7 @@ const Hero = () => {
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
         />
-
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="white" />
+        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       <div
@@ -36,11 +35,11 @@ const Hero = () => {
             Welcome to my Portfolio
           </p>
           <TextGenerateEffect
-            words="Hi! My name is Prithiraj Bhuyan"
+            words="Building Scalable Solutions, One Cloud at a Time"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I&apos;m a Cloud Engineer based in India.
+            Hi! I&apos;m Prithiraj, a Cloud Engineer based in India.
           </p>
 
           <a href="#about">

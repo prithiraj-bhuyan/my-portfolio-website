@@ -60,7 +60,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Do you want to get in touch?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -85,7 +85,7 @@ export const navItems = [
       des: "A secure messaging tool that requires facial authentication for sensitive messages.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com",
+      link: "https://github.com/",
     },
     {
       id: 3,
@@ -107,39 +107,22 @@ export const navItems = [
   
   export const testimonials = [
     {
-      quote:
-        "Collaborating with Prithiraj was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Prithiraj's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Prithiraj is the ideal partner.",
-      name: "Debo Borkotoky",
-      profile: "profile1.svg",
-      title: "CEO at N.K. Productions",
+      quote: "Actively participated in campus initiatives, including marathons and cyclothons, fostering a spirit of teamwork and community engagement. Contributed to social impact as a key member of the NGO Helphen India, where I led initiatives aimed at improving education for underprivileged children. Built and implemented multiple projects, honing my technical and problem-solving skills. Published my first AI-based research paper at IEEE's 6th ICCMC conference, marking a significant milestone in my academic journey. Additionally, I presented cutting-edge research on the DST-funded Indo-Russian Project at the prestigious 2023 3rd International Conference on Advanced Research in Computing (ICARC) in Sri Lanka, culminating in a publication in IEEE.",
+      name: "Vellore Institute of Technology",
+      profile: "profile1.ico",
+      title: "B.Tech in Computer Science and Engineering (CGPA - 9.09)",
     },
     {
-      quote:
-        "Working with Prithiraj has been an absolute privilege. His ability to lead teams effectively, especially during high-pressure projects, is remarkable. I witnessed his leadership firsthand when he spearheaded the migration of a critical business application to Google Cloud. Not only did he ensure seamless execution, but he also inspired the team with his innovative solutions and strategic foresight. Prithiraj is a natural leader who elevates everyone around him.",
-      name: "Naman Kapoor",
-      profile: "profile2.svg",
-      title: "Software Deeloper at Societe Generale",
+      quote: "Maintained consistent academic excellence throughout my education, demonstrating a strong commitment to learning and achievement. Led my house to victory in the annual athletics meet, showcasing leadership, strategic thinking, and team motivation. Represented my school in football, where I had the honor of captaining my team, further developing my leadership, teamwork, and decision-making skills on and off the field.",
+      name: "D.A.V Public School",
+      profile: "profile2.ico",
+      title: "Science - Physics, Chemistry, Mathematics (CBSE XII - 90.0)",
     },
     {
-      quote:
-        "Prithiraj's technical expertise is second to none. During our time together, he consistently demonstrated a deep understanding of cloud engineering, particularly with Terraform, Docker, and Kubernetes. His ability to troubleshoot complex issues and implement efficient solutions has been a game-changer for our projects. Prithiraj is not just a tech expert but a problem-solver who thrives on challenges.",
-      name: "Niket Jain",
-      profile: "profile3.svg",
-      title: "SDE at UBS",
-    },
-    {
-      quote:
-        "Prithiraj has an exceptional ability to bring people together and foster collaboration across teams. His approachable demeanor and clear communication skills make him a joy to work with. I remember when we worked on an innovation challenge; Prithiraj's ability to align our diverse ideas into a cohesive strategy helped us become finalists. His collaborative spirit ensures that every team member feels valued and heard.",
-      name: "Ojas Naik",
-      profile: "profile4.svg",
-      title: "SDE-2 at Verizon",
-    },
-    {
-      quote:
-        "Prithiraj is a visionary who combines his technical acumen with a genuine commitment to achieving excellence. I’ve seen him turn ambitious ideas into actionable plans, whether it was creating a chatbot with LLMs or integrating Gen AI tools into workflows. His ability to think big while paying attention to detail sets him apart. Prithiraj’s passion for his work is contagious and drives the entire team forward.",
-      name: "Deepanshu Dhingra",
-      profile: "profile5.svg",
-      title: "SDE-3 at J.P. Morgan Chase and Co.",
+      quote: "Achieved 4th rank in my cohort in the 2016 ICSE board exams. Represented my school as part of the tennis team, competing at district, state, and national levels. Secured medals in athletics and swimming, showcasing versatility in sports. Honored with the prestigious Commendable Progress in Academics award by the Head of School, recognizing my dedication and achievements in academics.",
+      name: "The Assam Valley School",
+      profile: "profile3.ico",
+      title: "High School (ICSE X - 95.6)",
     },
   ];
   
