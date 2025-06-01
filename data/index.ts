@@ -77,7 +77,7 @@ export const navItems = [
       des: "An AI assisted home workout model based on Tensorflow and dynamic time warping",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/",
+      link: "https://github.com/prithiraj-bhuyan/Fitsera",
     },
     {
       id: 2,
@@ -101,7 +101,7 @@ export const navItems = [
       des: "Created a portfolio website from scratch based on NextJS.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com",
+      link: "https://github.com/prithiraj-bhuyan/my-digital-memoir",
     },
   ];
   
