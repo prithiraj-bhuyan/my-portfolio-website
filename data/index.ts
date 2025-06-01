@@ -168,7 +168,7 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Cloud Engineer - Deutsche Bank",
+      title: "Software Engineer - Deutsche Bank",
       desc: "Lead the development of an internal tool serving over 60,000 users. Also developed a dashboard for monitoring SLAs and integrated an AI chatbot.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
