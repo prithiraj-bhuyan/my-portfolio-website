@@ -10,6 +10,7 @@ import Image from "next/image";
 import { FaHome } from "react-icons/fa";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
+import Certificates from "@/components/Certificates";
 
 export default function Home() {
   return (
@@ -18,10 +19,11 @@ export default function Home() {
         <FloatingNav className="" navItems={navItems} />
         <Hero />
         <Grid />
+        <Experience />
+        <Certificates />
         <RecentProjects />
         {/* <Travel /> */}
         <Clients />
-        <Experience />
         <Approach />
         <Footer />
       </div>

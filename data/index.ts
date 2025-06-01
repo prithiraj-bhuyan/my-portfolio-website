@@ -1,5 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
+    { name: "Experience", link: "#experience" },
+    { name: "Certificates", link: "#certificates" },
     { name: "Projects", link: "#projects" },
     // { name: "Travel", link: "#travel" },
     { name: "Academics", link: "#testimonials" },
@@ -193,6 +195,29 @@ export const navItems = [
       desc: "Served in the events division of Helphen India for 2 years organizing various charity events.",
       className: "md:col-span-2",
       thumbnail: "/exp3.svg",
+    },
+  ];
+
+  export const certificates = [
+    {
+      id: 1,
+      name: "Google Generative AI Leader",
+      img: "/genaiLeader.png",
+    },
+    {
+      id: 2,
+      name: "Googlee Cloud - Associate Cloud Engineer",
+      img: "/ace.png",
+    },
+    {
+      id: 3,
+      name: "Server-Side Development with NodeJS, ExpressJS, and MongoDB",
+      img: "/node.png",
+    },
+    {
+      id: 4,
+      name: "Terraform Beginner to Advanced - Using Google Cloud Platform",
+      img: "/tfe.png",
     },
   ];
   
