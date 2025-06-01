@@ -109,7 +109,7 @@ export const navItems = [
     {
       quote: "Incoming MS student at Carnegie Mellon University starting August 2025.",
       name: "Carnegie Mellon University",
-      profile: "profile4.ico",
+      profile: "profile4.svg",
       title: "MS in Information Systems Management",
     },
     {
