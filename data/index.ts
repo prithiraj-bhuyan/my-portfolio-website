@@ -97,7 +97,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "PB-Portfolio",
+      title: "My Portfolio",
       des: "Created a portfolio website from scratch based on NextJS.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
@@ -106,6 +106,12 @@ export const navItems = [
   ];
   
   export const testimonials = [
+    {
+      quote: "Incoming MS student at Carnegie Mellon University starting August 2025.",
+      name: "Carnegie Mellon University",
+      profile: "profile4.ico",
+      title: "MS in Information Systems Management",
+    },
     {
       quote: "Actively participated in campus initiatives, including marathons and cyclothons, fostering a spirit of teamwork and community engagement. Contributed to social impact as a key member of the NGO Helphen India, where I led initiatives aimed at improving education for underprivileged children. Built and implemented multiple projects, honing my technical and problem-solving skills. Published my first AI-based research paper at IEEE's 6th ICCMC conference, marking a significant milestone in my academic journey. Additionally, I presented cutting-edge research on the DST-funded Indo-Russian Project at the prestigious 2023 3rd International Conference on Advanced Research in Computing (ICARC) in Sri Lanka, culminating in a publication in IEEE.",
       name: "Vellore Institute of Technology",
