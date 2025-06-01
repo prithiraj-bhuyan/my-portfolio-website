@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "./provider";
 import { Analytics } from "@vercel/analytics/react"
 
+// Importing local fonts
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
