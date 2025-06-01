@@ -101,7 +101,7 @@ export const navItems = [
       des: "Created a portfolio website from scratch based on NextJS.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/prithiraj-bhuyan/my-digital-memoir",
+      link: "https://github.com/prithiraj-bhuyan/my-portfolio-website",
     },
   ];
   
