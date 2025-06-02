@@ -203,21 +203,25 @@ export const navItems = [
       id: 1,
       name: "Google Generative AI Leader",
       img: "/genaiLeader.png",
+      link: "https://www.credly.com/badges/0b7342a0-8ee2-4b81-acaf-3894fd559807/public_url",
     },
     {
       id: 2,
       name: "Googlee Cloud - Associate Cloud Engineer",
       img: "/ace.png",
+      link: "https://www.credly.com/badges/7b87d00b-2134-4a04-93e9-b1a8748a0726/public_url",
     },
     {
       id: 3,
       name: "Server-Side Development with NodeJS, ExpressJS, and MongoDB",
       img: "/node.png",
+      link: "https://www.coursera.org/account/accomplishments/certificate/AT3MLWBRCKMW",
     },
     {
       id: 4,
       name: "Terraform Beginner to Advanced - Using Google Cloud Platform",
       img: "/tfe.png",
+      link: "https://www.udemy.com/certificate/UC-dd3974c2-3642-4a06-8982-4f01a71b5747/",
     },
   ];
   
