@@ -26,13 +26,13 @@ const Certificates = () => {
   }, [isHovering, x]);
 
   return (
-    <section className="py-16 text-white overflow-hidden" id="certificates">
-      <h1 className="heading py-20">
+    <section className="py-20 text-white overflow-hidden" id="certificates">
+      <h1 className="heading">
         My <span className="text-purple"> Certificates</span>
       </h1>
 
       <div
-        className="relative w-full overflow-x-hidden"
+        className="py-10 relative w-full overflow-x-hidden"
         ref={containerRef}
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
