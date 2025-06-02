@@ -2,9 +2,13 @@
 
 import { certificates } from '@/data';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
+import { useRef } from 'react';
 
 const Certificates = () => {
+  const controls = useAnimation();
+  const containerRef = useRef(null);
+
   return (
     <section className="py-16 text-white overflow-hidden" id="certificates">
       <h1 className="heading py-20">
@@ -12,17 +16,26 @@ const Certificates = () => {
         <span className="text-purple"> Certificates</span>
       </h1>
 
-      <div className="relative w-full overflow-x-hidden">
+      <div
+        className="relative w-full overflow-x-hidden"
+        ref={containerRef}
+        onMouseEnter={() => controls.stop()}
+        onMouseLeave={() =>
+          controls.start({
+            x: ['0%', '-50%'],
+            transition: {
+              repeat: Infinity,
+              repeatType: 'loop',
+              duration: 40,
+              ease: 'linear',
+            },
+          })
+        }
+      >
         <motion.div
           className="flex gap-12 w-max"
+          animate={controls}
           initial={{ x: 0 }}
-          animate={{ x: ['0%', '-50%'] }}
-          transition={{
-            repeat: Infinity,
-            repeatType: 'loop',
-            duration: 40,
-            ease: 'linear',
-          }}
         >
           {[...certificates, ...certificates].map((cert, index) => (
             <div
