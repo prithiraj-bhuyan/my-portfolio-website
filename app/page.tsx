@@ -11,6 +11,7 @@ import { FaHome } from "react-icons/fa";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import Certificates from "@/components/Certificates";
+import TechStack from '@/components/TechStack';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <FloatingNav className="" navItems={navItems} />
         <Hero />
         <Grid />
+        <TechStack />
         <Experience />
         <Certificates />
         <RecentProjects />
