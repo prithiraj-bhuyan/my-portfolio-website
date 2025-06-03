@@ -128,33 +128,73 @@ const Certificates = () => {
         ref={containerRef}
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
+        style={{ paddingTop: '40px', paddingBottom: '40px', marginTop: '-40px', marginBottom: '-40px' }}
       >
         <motion.div
           className="flex gap-12 w-max"
           style={{ x }}
         >
           {[...certificates, ...certificates, ...certificates].map((cert, index) => (
-            <div
+            <motion.div
               key={index}
-              className="flex flex-col items-center min-w-[320px]"
+              className="flex flex-col items-center min-w-[320px] relative"
+              whileHover={{ 
+                scale: 1.05,
+                zIndex: 10
+              }}
+              transition={{ 
+                type: "spring", 
+                stiffness: 300, 
+                damping: 20,
+                duration: 0.3 
+              }}
+              style={{ zIndex: 1 }}
             >
-              <a
+              <motion.a
                 href={cert.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-72 h-52 relative rounded-lg overflow-hidden border border-white/10 shadow-md bg-white"
+                className="w-72 h-52 relative rounded-lg overflow-hidden border border-white/10 shadow-md bg-white block"
+                whileHover={{ 
+                  scale: 1.15,
+                  boxShadow: "0 25px 50px rgba(0, 0, 0, 0.4), 0 0 40px rgba(147, 51, 234, 0.4)",
+                  borderColor: "rgba(147, 51, 234, 0.6)",
+                  zIndex: 20
+                }}
+                transition={{ 
+                  type: "spring", 
+                  stiffness: 400, 
+                  damping: 25,
+                  duration: 0.2 
+                }}
+                style={{ position: 'relative', zIndex: 'inherit' }}
               >
                 <Image
                   src={cert.img}
                   alt={cert.name}
                   fill
-                  className="object-contain"
+                  className="object-contain transition-transform duration-300"
                 />
-              </a>
-              <p className="text-sm text-center mt-2 max-w-[10rem]">
+                
+                {/* Overlay effect on hover */}
+                <motion.div
+                  className="absolute inset-0 bg-gradient-to-t from-purple/20 to-transparent opacity-0"
+                  whileHover={{ opacity: 1 }}
+                  transition={{ duration: 0.2 }}
+                />
+              </motion.a>
+              
+              <motion.p 
+                className="text-sm text-center mt-2 max-w-[10rem]"
+                whileHover={{ 
+                  color: "#9333ea",
+                  scale: 1.05 
+                }}
+                transition={{ duration: 0.2 }}
+              >
                 {cert.name}
-              </p>
-            </div>
+              </motion.p>
+            </motion.div>
           ))}
         </motion.div>
       </div>
