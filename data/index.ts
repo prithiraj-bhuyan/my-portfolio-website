@@ -52,7 +52,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building an AI Chatbot",
+      title: "Currently building an AI Application",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -99,11 +99,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "My Portfolio",
-      des: "Created a portfolio website from scratch based on NextJS.",
+      title: "AI Code Archeologist",
+      des: "An AI based tool to uncover the architectural evolution of GitHub repositories with AI-powered analysis",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/prithiraj-bhuyan/my-portfolio-website",
+      link: "https://ai-code-archeologist.vercel.app/",
     },
   ];
   
